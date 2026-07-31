@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.5.1](https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table/compare/v5.5.0...v5.5.1) (2026-07-31)
+
+### Bug Fixes
+
+* Add deletion_protection_enabled variable support for replica in autoscaled_gsi_ignore & autoscaled dynamodb ([#120](https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table/issues/120)) ([c129922](https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table/commit/c1299224d0dcd2db5319f2e2f97579bf5709577b))
+
 ## [5.5.0](https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table/compare/v5.4.0...v5.5.0) (2026-01-08)
 
 ### Features
